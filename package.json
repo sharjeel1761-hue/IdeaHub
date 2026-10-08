@@ -1,0 +1,17 @@
+{
+  "name": "ideahub-dduc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IdeaHub DDUC: share an idea, find a mistake, improve it together.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-demo": "node build-demo.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "@libsql/client": "0.15.15"
+  }
+}
